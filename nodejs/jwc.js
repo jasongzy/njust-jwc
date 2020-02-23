@@ -3,6 +3,7 @@ var http = require('http');
 let https = require("https");
 var querystring = require('querystring');
 var md5 = require('./md5');
+var fs = require('fs');
 
 var httpPort = 7401;
 var httpsPort = 7402;
